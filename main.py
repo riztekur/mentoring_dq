@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 
 
 load_dotenv()
-kode_api = os.environ("API_KEY")
+kode_api = os.getenv("API_KEY")
 
 st.title("HELLO WORLD!")
 
